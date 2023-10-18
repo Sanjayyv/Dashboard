@@ -1,0 +1,73 @@
+.sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    background-color: var(--primary-color);
+    height: auto;
+    color: var(--white-color);
+    transition: width 0.3s;
+}
+
+.Sidebarheader {
+    position: relative;
+    display: inline;
+    top: 20px;
+    left: 20px;
+}
+
+ul {
+    top: 30px;
+    position: relative;
+    list-style-type: none;
+}
+
+.Hamburger {
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.Dashboard {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+li {
+    width: 150px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.2);
+    padding: 7px;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.liimg {
+    margin-right: 15px;
+}
+
+.arrow {
+    position: absolute;
+    left: 160px;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10 rgba(255, 255, 255, 0.5);
+}
+
+.Hamburger:hover {
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}

@@ -1,0 +1,56 @@
+.head {
+    padding: 20px;
+    width: 80%;
+    position: sticky;
+    left: 15%;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.search {
+    float: right;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    width: 150px;
+}
+
+.name {
+    position: relative;
+    left: 20px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.hello {
+    margin-left: 22px;
+}
+
+
+@media (max-width: 768px) {
+    .head {
+        width: 100%;
+        left: 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .search {
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .name {
+        left: 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .hello {
+        margin-left: 10px;
+    }
+
+
+}

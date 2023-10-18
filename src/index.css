@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #130847;
+    --white-color: #ffffff;
+    --success-color:#00ff00;
+    --failure-color:#ff0000;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+body{
+    position: relative;
+    background-color: #f4f4f7;
+    height: 100%;
+}
+

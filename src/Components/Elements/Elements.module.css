@@ -1,0 +1,152 @@
+.element {
+    position: relative;
+    padding: 10px;
+    width: 80%;
+    left: 200px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.subdiv {
+    padding-top: 25px;
+    float: right;
+    width: 130px;
+
+}
+
+.card {
+    overflow: hidden;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    margin-left: 32px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.bargraphcard {
+    margin-top: 32px;
+    margin-left: 32px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 720px;
+    height: 240px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.piegraphcard {
+    overflow: hidden;
+    margin-top: 32px;
+    margin-left: 32px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 270px;
+    height: 240px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.tablecard {
+    overflow: hidden;
+    margin-top: 32px;
+    margin-left: 32px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 1020px;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-size: 12px;
+}
+
+.success {
+    color: var(--success-color);
+    font-weight: 700;
+}
+
+.failure {
+    color: var(--failure-color);
+    font-weight: 700;
+}
+
+.cardimg {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 90px;
+    height: 100px;
+}
+
+.bargraphimg {
+    margin-top: 15px;
+    width: 700px;
+    height: 210px;
+}
+
+.piegraph {
+    margin-top: 10px;
+    width: 250px;
+    height: 220px;
+}
+
+@media (max-width: 768px) {
+    .element {
+        width: 100%;
+        left: 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .subdiv {
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .card,
+    .bargraphcard,
+    .piegraphcard,
+    .tablecard {
+        margin: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .card:hover,
+    .bargraphcard:hover,
+    .piegraphcard:hover,
+    .tablecard:hover {
+        transform: none;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+
+}
